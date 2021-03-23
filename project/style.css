@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+* {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+    margin-top: 71px;
+    margin-bottom: 92px;
+}
+nav {
+margin-left: 46.25%;
+}
+
+li {
+list-style-type: none;
+display: inline-block;
+}
+
+.link {
+    display: inline-block;
+    margin-right: 100px;
+   list-style-type: none;
+   font-family: 'Playfair Display', serif;
+   font-size: 14px;
+   line-height: 19px;
+   color: #7d7d7d;
+}
+
+a {
+   color: #7d7d7d;
+   text-decoration: none;
+}
+
+a:hover {
+    color: royalblue;
+}
+
+
+.container {
+    width: 75.5vw;
+    margin-left: 147px;
+}
+
+.card {
+   display: inline-block;
+   width: 45.35%;
+
+}
+.card img {
+    width: 420px;
+    height: 280px;
+}
+
+.card h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #b4ade9;
+    margin-top: 62px;
+    margin-bottom: 32px;
+}
+
+.card h2 {
+    font-family: 'PlayfairDisplay', serif;
+    font-size: 30px;
+    line-height: 40px;
+
+}
+
+.card p {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;
+    margin-bottom: 130px;
+}
+.card:nth-child(2n+1) {
+margin-right: 65px;
+}
+
+button {
+   margin-left: 380px;
+   /* margin-top: 90px; */
+   font-family: 'PlayfairDisplay', serif;
+   font-size: 14px;
+   line-height: 19px;
+   color: #626262;
+   padding: 20px 49px;
+   border: 1px solid #626262;
+   background-color: #fff;
+}
+
+button:hover {
+   color: royalblue;
+   cursor: pointer;
+}
